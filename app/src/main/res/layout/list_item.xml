@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:padding="16dp"
 
     >
 
@@ -28,16 +27,16 @@
         <TextView
             android:id="@+id/placeName"
             style="@style/listItemTextView"
-            tools:text="name"
             android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
             android:textStyle="bold"
-            android:textSize="20sp"/>
+            tools:text="name" />
 
 
         <TextView
             android:id="@+id/placeDescription"
             style="@style/listItemTextView"
-            tools:text="short description"/>
+            tools:text="short description" />
 
     </LinearLayout>
 </LinearLayout>

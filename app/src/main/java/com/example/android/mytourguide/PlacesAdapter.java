@@ -11,17 +11,14 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by manar on 02/01/2018.
- */
 
-public class PlacesAdapter extends ArrayAdapter<Places>{
+public class PlacesAdapter extends ArrayAdapter<Places> {
 
     //constructor
 
-    public PlacesAdapter (Activity context, ArrayList<Places> word){
+    public PlacesAdapter(Activity context, ArrayList<Places> word) {
 
-        super(context,0, word);
+        super(context, 0, word);
     }
 
     // overwriting the getView method
@@ -33,7 +30,7 @@ public class PlacesAdapter extends ArrayAdapter<Places>{
 
         View listItemView = convertView;
 
-        if(listItemView == null) {
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
@@ -42,15 +39,13 @@ public class PlacesAdapter extends ArrayAdapter<Places>{
         Places currentWord = getItem(position);
 
 
-
-
-        TextView placeName =listItemView.findViewById(R.id.placeName);
+        TextView placeName = listItemView.findViewById(R.id.placeName);
         placeName.setText(currentWord.getPlaceName());
 
-        TextView placeDescription =listItemView.findViewById(R.id.placeDescription);
+        TextView placeDescription = listItemView.findViewById(R.id.placeDescription);
         placeDescription.setText(currentWord.getPlaceDescription());
 
-        ImageView image =  listItemView.findViewById(R.id.image);
+        ImageView image = listItemView.findViewById(R.id.image);
         image.setImageResource(currentWord.getImageResourceId());
 
         // Find the ImageView in the list_item.xml layout with the ID list_item_icon

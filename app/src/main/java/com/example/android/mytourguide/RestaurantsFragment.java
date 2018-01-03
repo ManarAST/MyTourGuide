@@ -1,7 +1,7 @@
 package com.example.android.mytourguide;
 
-import android.app.Fragment;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,17 +9,16 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- * Created by manar on 02/01/2018.
- */
+
 
 public class RestaurantsFragment extends android.support.v4.app.Fragment {
 
     //constructor
-    public RestaurantsFragment(){
+    public RestaurantsFragment() {
         // Required empty public constructor
     }
 
+    @NonNull
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -32,9 +31,9 @@ public class RestaurantsFragment extends android.support.v4.app.Fragment {
         places.add(new Places(R.string.Name_Texas_De_Brazil, R.string.Des_Texas_De_Brazil, R.drawable.texas_de_brazil));
 
 
-        PlacesAdapter adapter = new PlacesAdapter(getActivity(), places );
+        PlacesAdapter adapter = new PlacesAdapter(getActivity(), places);
 
-        ListView listView =  rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         return rootView;

@@ -1,6 +1,7 @@
 package com.example.android.mytourguide;
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,17 +9,15 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- * Created by manar on 02/01/2018.
- */
 
 public class SightsFragment extends android.support.v4.app.Fragment {
 
     //constructor
-  public   SightsFragment(){
-      // Required empty public constructor
-  }
+    public SightsFragment() {
+        // Required empty public constructor
+    }
 
+    @NonNull
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -32,12 +31,9 @@ public class SightsFragment extends android.support.v4.app.Fragment {
         places.add(new Places(R.string.Name_Dariyah, R.string.Des_Dariyah, R.drawable.diriyah));
 
 
+        PlacesAdapter adapter = new PlacesAdapter(getActivity(), places);
 
-
-
-        PlacesAdapter adapter = new PlacesAdapter(getActivity(), places );
-
-        ListView listView =  rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         return rootView;

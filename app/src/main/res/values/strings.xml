@@ -4,12 +4,7 @@
     <string name="tab_text_2">Shops</string>
     <string name="tab_text_3">Events</string>
     <string name="tab_text_4">Restaurants</string>
-    <string name="cityName">Name</string>
-    <string name="picture_of_the_city">Picture of the city</string>
-    <string name="city_space">Space</string>
-    <string name="factsTitle">Facts:</string>
-    <string name="mapPicDescription">A picture of the city\'s map</string>
-    <string name="factsField">some facts about the city</string>
+
 
     <string name="Name_Masmak">Masmak Citadel</string>
     <string name="Des_Masmak"> a clay and mud-brick fort, with four watchtowers

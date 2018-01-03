@@ -12,13 +12,14 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     }
 
     @Override
-    public Fragment getItem (int position)
-    {
-        switch (position)
-        {
-            case 0 : return new SightsFragment();
-            case 1 : return new ShopsFragment();
-            case 2 : return new EventsFragment();
+    public Fragment getItem(int position) {
+        switch (position) {
+            case 0:
+                return new SightsFragment();
+            case 1:
+                return new ShopsFragment();
+            case 2:
+                return new EventsFragment();
 
             default:
                 return new RestaurantsFragment();
