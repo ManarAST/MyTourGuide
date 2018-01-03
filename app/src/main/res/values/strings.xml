@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">My Tour Guide to Riyadh KSA</string>
+    <string name="tab_text_1">sights</string>
+    <string name="tab_text_2">Shops</string>
+    <string name="tab_text_3">Events</string>
+    <string name="tab_text_4">Restaurants</string>
+    <string name="cityName">Name</string>
+    <string name="picture_of_the_city">Picture of the city</string>
+    <string name="city_space">Space</string>
+    <string name="factsTitle">Facts:</string>
+    <string name="mapPicDescription">A picture of the city\'s map</string>
+    <string name="factsField">some facts about the city</string>
+
+    <string name="Name_Masmak">Masmak Citadel</string>
+    <string name="Des_Masmak"> a clay and mud-brick fort, with four watchtowers
+        that has been built in around 1865 in the center of Riyadh.</string>
+
+
+
+    <string name="Name_HeetCave">Heet Cave</string>
+    <string name="Des_HeetCave">Ain Heet cave or Dahl Heet is one such with an underground lake in its interior chambers.</string>
+
+
+
+    <string name="Name_Dariyah">Old town of Dariyah</string>
+    <string name="Des_Dariyah">The ruins of the old city of Diriyah which was the capital of the first Saudi state</string>
+
+
+
+    <string name="Name_Nakheel">Al Nakheel Mall</string>
+    <string name="Des_Nakheel">Of the best malls in Riyadh and they have all the top brands,
+        as well as have a branch of the Virgin stores. The market features a variety of restaurants.</string>
+
+    <string name="Name_Riyadh_Gallery">Riyadh Gallery Mall</string>
+    <string name="Des_Riyadh_Gallery">One of the most popular malls in Riyadh. Three level shopping mall.
+        Has coffee shops located around the lake, restaurants and huge amuzement park for kids.</string>
+
+    <string name="Name_Granada">Granada Center</string>
+    <string name="Des_Granada">a shopping mall located in the eastern ring road highway (airport direction) </string>
+
+
+
+    <string name="Name_Eid_Al_Fitr">Eid Al-Fitr Holiday</string>
+    <string name="Des_Eid_Al_Fitr">is a muslim holiday where muslims spend it with joy renewing there brotherly bonds.
+        and the whole country celebrate dressing up in beautiful lights and fun events for the whole family</string>
+
+    <string name="Name_Janadriyah">Janadriyah Festival</string>
+    <string name="Des_Janadriyah">is a cultural and heritage festival held in Jenadriyah, every Famous
+        regions of KSA along with the Arabian Gulf countries and a guest country show there historical heritage</string>
+
+
+
+    <string name="Name_Najd_Village">Najd Village</string>
+    <string name="Des_Najd_Village">serves Saudi traditional food in a very traditional atmosphere</string>
+
+    <string name="Name_Shezan">Shezan</string>
+    <string name="Des_Shezan">an Indian Restaurant that serves quality Indian food</string>
+
+    <string name="Name_Texas_De_Brazil">Texas De Brazil</string>
+    <string name="Des_Texas_De_Brazil">an Indian Restaurant that serves quality Indian food</string>
+
+
+
+
+
+</resources>
